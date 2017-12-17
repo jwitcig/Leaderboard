@@ -1,0 +1,61 @@
+PODS:
+  - AnimatedTextInput (0.5.1)
+  - Cartography (1.1.0)
+  - Firebase/AdMob (4.0.4):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.21.0)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Database (4.0.4):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.4):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - Google-Mobile-Ads-SDK (7.21.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - IQKeyboardManager (4.0.10)
+  - JWSwiftTools (1.1.14)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+
+DEPENDENCIES:
+  - AnimatedTextInput
+  - Cartography
+  - Firebase/AdMob
+  - Firebase/Core
+  - Firebase/Database
+  - IQKeyboardManager
+  - JWSwiftTools
+
+SPEC CHECKSUMS:
+  AnimatedTextInput: 0fde4c9c8d71dafc032b9b222531a788767536fb
+  Cartography: '0538ccb4044acbbda2266335fc58cb4228794d90'
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  Google-Mobile-Ads-SDK: 4a6f1b43c8cc0e1e95a3b59d9f52a01671c6f9f3
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  JWSwiftTools: c07152e274af4fbb834b350fc54ab52369a41f80
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+
+PODFILE CHECKSUM: bb7c04e7ce030ca428d893438194ddf237fa9cee
+
+COCOAPODS: 1.2.1

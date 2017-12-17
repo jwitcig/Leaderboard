@@ -8,14 +8,31 @@
 
 import UIKit
 
+import Firebase
+import IQKeyboardManager
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
+        Database.setLoggingEnabled(true)
+        
+        IQKeyboardManager.shared().isEnabled = true
+        
+        var dict: [String : Int] = [:]
+        
+        for x in 0..<1000 {
+            print(x)
+            dict[UUID().uuidString] = Int(arc4random_uniform(300))
+        }
+        
+//        Database.database().reference().child("scores").setValue(dict)
+                
         return true
     }
 
